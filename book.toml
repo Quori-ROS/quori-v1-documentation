@@ -1,0 +1,6 @@
+[book]
+authors = ["Victor Paléologue"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Quori Documentation"
