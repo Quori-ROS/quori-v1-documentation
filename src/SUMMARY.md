@@ -1,7 +1,4 @@
-# Summary
-
-Quori is a robot that is designed to be a platform for research into human-robot interaction. This book is a collection of documentation for the robot and its software.
-
+[Introduction](./introduction.md)
 - [General Use](./general_use.md)
   - [Hardware Overview](./hardware_overview.md)
 - [Interaction](./interaction.md)
