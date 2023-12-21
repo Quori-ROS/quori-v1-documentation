@@ -1,9 +1,21 @@
 # Hardware
 
-## Computer
+Quori is 1.35m tall, consisting of an expressive upper body attached to a omnidirectional mobile base.
 
-## Head
+## Key Features
 
-## Body
+![Quori Hardware Features](images/quori_hardware_features.png)
 
-## Base
+## Key Dimensions
+
+![Quori's footprint and key dimensions for reference](./images/quori_dimensions.png)
+
+The four hardware modules
+– [head](head.md), [arms](arms.md), [torso](torso.md), and [base](base.md) –
+are described in the following sections, along with [their power](power.md) and sensor systems:
+- [Head](head.md)
+- [Arms](arms.md)
+- [Torso and Waist](torso.md)
+- [Mobile Base](base.md)
+- [Power and Electronics](power.md)
+
