@@ -17,5 +17,6 @@ are described in the following sections, along with [their power](power.md) and 
 - [Arms](arms.md)
 - [Torso and Waist](torso.md)
 - [Mobile Base](base.md)
-- [Power and Electronics](power.md)
-
+- [Power](power.md)
+- [Electronics](electronics.md)
+- [Sensors for Interaction](hri_sensors.md)

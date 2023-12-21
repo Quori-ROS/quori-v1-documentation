@@ -2,7 +2,7 @@
 
 The following should be verified after your first assembly to verify no parts were damaged during shipping. You can also use this as a basic test if something is not working.
 
-## Testing Joint Functions
+## Joint Functions
 
 You will need to plug the robot into power and use the e-stop. Be sure the robot is not able to collide with any objects before starting.
 
