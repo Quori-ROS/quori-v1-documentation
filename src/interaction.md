@@ -1,5 +1,0 @@
-# Interaction
-
-## Perceiving People
-
-## Dialog
