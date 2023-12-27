@@ -1,7 +1,7 @@
 [Introduction](./introduction.md)
 - [Quori](./quori.md)
 - [General Use](./general_use.md)
-  - [Reception and Shipment](./shipment.md)
+  - [Transportation](./shipment.md)
     - [Assembly](./assembly.md)
     - [Disassembly](./disassembly.md)
   - [Testing](./testing.md)
