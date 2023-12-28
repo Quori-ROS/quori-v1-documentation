@@ -1,7 +1,7 @@
 # Calibration
 
 <!-- TODO: fix link to spreadsheet -->
-Calibration values for your robot can be found here Spreadsheet. See below for instructions on how to program each microcontroller. You should not need to recalibrate your robot. If you need to recalibrate your robot, likely due to a significant hardware modification or repair, see the steps below.
+Calibration values for your robot can be found in [the values section](#values). See below for instructions on how to program each microcontroller. You should not need to recalibrate your robot. If you need to recalibrate your robot, likely due to a significant hardware modification or repair, see the steps below.
 
 ## Arm
 
@@ -62,3 +62,19 @@ The base calibration does not require the microcontroller to be flashed. The cal
 - Hold the left bumper LB and use the thumbsticks to rotate the top plate of the base into your desired zero heading. [See teleop repo](https://www.google.com/url?q=https://github.com/Quori-ROS/quori_ros/tree/master/src/quori_teleop&sa=D&source=editors&ust=1703158334603099&usg=AOvVaw0ti8R1g06ZxG_J2iSaMmy2) for more information on how to command the robot
 - `rostopic echo /quori/base/pos_status`
 - Use the value reported in the echo above as the new calibration value in the calibration file
+
+## Values
+
+|     | **LEFT ARM**                     |                                  | **RIGHT ARM**                     |                                   | **SPINE**                          |                                    |                                                                 |         |         |
+| --- | -------------------------------- | -------------------------------- | --------------------------------- | --------------------------------- | ---------------------------------- | ---------------------------------- | --------------------------------------------------------------- | ------- | ------- |
+| Q#  | `QUORI_LEFT_ARM_ZERO_POSITION_X` | `QUORI_LEFT_ARM_ZERO_POSITION_Y` | `QUORI_RIGHT_ARM_ZERO_POSITION_X` | `QUORI_RIGHT_ARM_ZERO_POSITION_Y` | `QUORI_CONFIG_ZERO_POSITION_WAIST` | `QUORI_CONFIG_ZERO_POSITION_MOTOR` | `/opt/quori/quori_controller/config/calibration` `base_offset`: | Head dx | Head dy |
+| 1   | -1.8                             | -2.0388                          | 1.93                              | -5.0388                           | 0.18                               | 0.9                                |                                                                 |         |         |
+| 2   | 0.9434                           | 2.5247                           | 0.5737                            | -0.7704                           | -2.007                             | 1.6457                             | 0.0944                                                          | -2.5    | -1.65   |
+| 3   | 2.9258                           | 2.1684                           | -1.1363                           | -0.53                             | -0.5515                            | -0.8114                            | 0.02606                                                         | -2.65   | -1.75   |
+| 4   | -1.6475                          | 1.366                            | 2.3041                            | -2.2458                           | 0.6527                             | 0.1149                             | 0.72                                                            | -3      | -1.85   |
+| 5   | 2.5998                           | 2.7943                           | -1.7496                           | 0.6588                            | -2.3031                            | 0.6666                             | 0.2982                                                          | -2.5    | -1.7    |
+| 6   | -1.8658                          | -1.2782                          | 2.6999                            | -3.1018                           | 1.4965                             | 2.7852                             | 0.583958                                                        | -2.75   | -1.85   |
+| 7   | -0.2711                          | 0.4138                           | -0.9802                           | 2.12                              | 1.7895                             | -2.3996                            | 0.201184                                                        | -2.9    | -1.4    |
+| 8   | -2.32                            | -1.22                            | 1.381                             | -2.8062                           | 2.328                              | 0.9444                             | 0.93102                                                         | -3.2    | -1.9    |
+| 9   | 1.582                            | -0.0153                          | -0.6412                           | -1.0186                           | 0.6627                             | -1.3553                            | 0.289568                                                        | -2.7    | -1.8    |
+| 10  | -2.7                             | 1.273                            | -2.4                              | 0.016                             | 0.405                              | -0.7193                            | 0.347                                                           | -2.7    | -1.97   |
