@@ -1,6 +1,5 @@
 # Calibration
 
-<!-- TODO: fix link to spreadsheet -->
 Calibration values for your robot can be found in [the values section](#values). See below for instructions on how to program each microcontroller. You should not need to recalibrate your robot. If you need to recalibrate your robot, likely due to a significant hardware modification or repair, see the steps below.
 
 ## Arm
