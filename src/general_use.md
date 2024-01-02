@@ -29,7 +29,11 @@ When you are ready to power the motors on you can twist the Emergency Stop butto
 
 ## Powering Off
 
-<!-- TODO -->
+1. Peel off the black siding around the base of the robot.
+2. On the robot's right hand side there is a small box with a red button and
+black lever (see area marked in red in the picture above). Press the red
+button.
+3. Put the black siding back on the robot.
 
 ## Recharging
 
