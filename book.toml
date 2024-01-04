@@ -11,3 +11,7 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Quori v1 Documentation"
+
+[output.html]
+
+[output.linkcheck]
