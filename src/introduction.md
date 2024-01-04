@@ -4,9 +4,10 @@ This is the official documentation of the [Quori robot v1](quori.md).
 
 Quori owners should refer to the [General Use](general_use.md) section,
 to learn about the robot's maintenance and operation.
-See also the [assembly instructions](assembly.md) if you have just received a robot.
+See also the [assembly instructions](setup/assembly.md) if you have just received a robot.
 
-Researchers and developers should refer to the [Software](software.md) section,
+If the robot is already setup,
+and developers should refer to the [Software](software.md) section,
 to modify that behavior.
 
 

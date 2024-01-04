@@ -1,6 +1,6 @@
 # Modular Configurations
 
-You can reconfigure Quori with new modules or use some of its module’s independently. See the [Receiving and Shipping Section](shipment.md) for instructions on how to attach and remove modules. If you do not use Quori in its default configuration you may need to modify the quori_controller configuration. Here are a few examples to consider:
+You can reconfigure Quori with new modules or use some of its module’s independently. See the [Receiving and Shipping Section](../setup/shipment.md) for instructions on how to attach and remove modules. If you do not use Quori in its default configuration you may need to modify the quori_controller configuration. Here are a few examples to consider:
 
 ## Locking the Waist
 

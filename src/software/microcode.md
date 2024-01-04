@@ -28,9 +28,9 @@ The three base motor controllers (Pololu Simple Motor Controller 18v7)  are foun
 
 > The images below are for reference. Read the instructions first as some values may need to be changed such as the “motor direction inverted” parameter
 
-![Right Motor Driver](images/right_motor_driver.png)
-![Turret Motor Driver](images/turret_motor_driver.png)
-![Left Motor Driver](images/left_motor_driver.png)
+![Right Motor Driver](../images/right_motor_driver.png)
+![Turret Motor Driver](../images/turret_motor_driver.png)
+![Left Motor Driver](../images/left_motor_driver.png)
 
 ### Waist/Torso Motor Controller Settings
 

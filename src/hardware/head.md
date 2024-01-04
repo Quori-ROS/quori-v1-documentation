@@ -10,4 +10,4 @@ The mapping of projected images onto the sphere's surface is not uniform---the r
 
 The illusion of motion (e.g., head shaking, nodding, and gaze directing) can be produced through projection. Since the robot's head is a rotationally symmetric sphere with no protruding features (e.g., no nose or ears), head rotation can be simulated by projecting the image of a face rotating on the sphere without requiring additional motors or neck DoFs. Gaze direction can be simulated by coupling animation of the eyes with horizontal rotation of the whole upper torso ($M_T$ in Fig.~\ref{fig:basecad}). The waist joint (Fig.~\ref{fig:torsocad}) may also be useful in supplementing gaze, especially for interactions below or above the neutral gaze of the robot (e.g., for users who are shorter or taller than the robot) or for objects very near or far away. Sensors in the head can be replaced via fasteners on the sensor mounting plate. The camera field of view is discussed in Section~\ref{subsec:PowSysDesign} and shown in Fig.~\ref{fig:camerafov}.%
 
-![Quori's head](images/quori_head.jpg)
+![Quori's head](../images/quori_head.jpg)

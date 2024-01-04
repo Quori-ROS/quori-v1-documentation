@@ -9,6 +9,7 @@ You will need to plug the robot into power and use the e-stop. Be sure the robot
 ### Arms and Waist
 
 - Launch the holonomic controller:
+
   ```bash
   roslaunch quori_controller quori_control_holo.launch
   ```
@@ -17,20 +18,22 @@ You will need to plug the robot into power and use the e-stop. Be sure the robot
   ```bash
   /opt/ros/noetic/lib/rqt_joint_trajectory_controller/rqt_joint_trajectory_controller
   ```
-  As a sanity check before you enable control in the rqt gui ensure that the arms and waist are reading valid positions (values are within the range of the slider and respond to slight movement)
+  As a sanity check before you enable control in `rqt` ensure that the arms and waist are reading valid positions (values are within the range of the slider and respond to slight movement)
 
-- Enable control of the joints by pressing the red button in the rqt gui
+- Enable control of the joints by pressing the red button in `rqt`.
 - Use the slider to move each joint to its extreme position and back to a resting position
-- Close out of the gui and any ROS nodes
+- Close out of `rqt` and any ROS nodes
 
 ### Base
 
 - Launch the holonomic controller:
+
   ```bash
   roslaunch quori_controller quori_control_holo.launch
   ```
 
 - Launch the teleop node:
+
   ```bash
   roslaunch quori_teleop quori_teleop.launch
   ```
@@ -65,7 +68,7 @@ You will need to plug the robot into power and use the e-stop. Be sure the robot
   roslaunch rplidar_ros rplidar.launch
   ```
 
-  If you are getting an error try unplugging and replugging in the lidar usb cable. You can also see the [Troubleshooting](troubleshooting.md) section
+  If you are getting an error try unplugging and replugging in the lidar usb cable. You can also see the [Troubleshooting](../troubleshooting.md) section
 
 - Launch the terminal client
 
@@ -91,7 +94,7 @@ You will need to plug the robot into power and use the e-stop. Be sure the robot
 
 ## Face
 
-We will test that the calibration image is properly centered. You will need a remote PC with x11 forwarding. Ssh into the quori robot and then do the following:
+We will test that the calibration image is properly centered. You will need a remote PC with x11 forwarding. `ssh` into Quori and then do the following:
 
 ```bash
 roslaunch quori_face calibrate.launch
@@ -108,6 +111,7 @@ roslaunch quori_launch mapping.launch
 roslaunch quori_controller quori_control_holo.launch
 roslaunch quori_nav move_base.launch # if autonomous otherwise use telop
 ```
+
 Then run RViz on a remote desktop that is on the same ROS network.
 
 - Load map, laser scanner, and robot model into Rviz

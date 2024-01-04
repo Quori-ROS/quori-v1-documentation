@@ -8,7 +8,7 @@ Additional or replacement microphones can be mounted inside the helmet.
 
 An RGB+D camera mounts atop the robot's head to the sensor plate and fits inside the helmet (Fig.~\ref{fig:headcad}). The position of the camera gives the robot a $60^{\circ}$ H x $49.5^{\circ}$V FoV that follows the robot's gaze direction.
 
-![Quori FoV](images/quori_fov.png)
+![Quori FoV](../images/quori_fov.png)
 
 The camera is also plainly visible, which helps to set reasonable social expectations for what is in its FoV (Fig.~\ref{fig:camerafov}); this FoV can be manually adjusted to $\pm 25^{\circ}$. The current camera is an Orbbec Astra Mini\footnote{\url{http://shop.orbbec3d.com/Astra-Mini_p_40.html}} in a DuriPOD Case\footnote{\url{http://shop.orbbec3d.com/DuriPOD_p_47.html}}, which is 120mm x 37.5mm x 32.5mm, but can be easily replaced.
 

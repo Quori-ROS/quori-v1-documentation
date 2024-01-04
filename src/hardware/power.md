@@ -10,7 +10,7 @@ Most of the robot's subsystems are 12V-based; the only significant voltage switc
 
 The robot can also run in a tethered mode when not mobile.
 
-See [Recharging](general_use.md#recharging) for more information on how to charge the robot.
+See [Recharging](../general_use.md#recharging) for more information on how to charge the robot.
 
 ## Power Configurations
 
@@ -30,18 +30,18 @@ Here the PC and projector plug into an extension chord into 120 AC Voltage
 1. Turn off the inverter power switch
 1. Unplug the PC and projector power cables.
 
-   ![PC and Projector Power Slots](images/pc_projector_power_slots.png)
+   ![PC and Projector Power Slots](../images/pc_projector_power_slots.png)
 
 2. Plug the PC and projector cables into a properly rated power cable.
    Be mindful of this cable if the robot is connected to the base.
 
-   ![PC and Projector Power Cables](images/pc_projector_power_cables.png)
+   ![PC and Projector Power Cables](../images/pc_projector_power_cables.png)
 
 ### All External Power
 
 You will need a DC power supply rated for 12 Volts at least 30 Amps to power the actuators. The power supply will need a Female XT-60 connector and will plug into the power in cable.
 
-![Power Circuit](images/quori_power_circuit.png)
+![Power Circuit](../images/quori_power_circuit.png)
 
 Above, the 12V DC circuit for Quori. Motor controllers receive power directly from the battery, while sensors receive power from the computer. The emergency stop controls power to the motors, but allows the computer and projector to remain on. The power charging port is within the battery bay.
 

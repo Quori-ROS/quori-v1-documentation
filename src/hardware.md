@@ -8,15 +8,15 @@ Quori is 1.35m tall, consisting of an expressive upper body attached to a omnidi
 
 ## Key Dimensions
 
-![Quori's footprint and key dimensions for reference](./images/quori_dimensions.png)
+![Quori's footprint and key dimensions for reference](images/quori_dimensions.png)
 
 The four hardware modules
-– [head](head.md), [arms](arms.md), [torso](torso.md), and [base](base.md) –
-are described in the following sections, along with [their power](power.md) and sensor systems:
-- [Head](head.md)
-- [Arms](arms.md)
-- [Torso and Waist](torso.md)
-- [Mobile Base](base.md)
-- [Power](power.md)
-- [Electronics](electronics.md)
-- [Sensors for Interaction](hri_sensors.md)
+– [head](hardware/head.md), [arms](hardware/arms.md), [torso](hardware/torso.md), and [base](hardware/base.md) –
+are described in the following sections, along with [their power](hardware/power.md) and sensor systems:
+- [Head](hardware/head.md)
+- [Arms](hardware/arms.md)
+- [Torso and Waist](hardware/torso.md)
+- [Mobile Base](hardware/base.md)
+- [Power](hardware/power.md)
+- [Electronics](hardware/electronics.md)
+- [Sensors for Interaction](hardware/hri_sensors.md)

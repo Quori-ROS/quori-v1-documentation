@@ -12,7 +12,7 @@
 
 ## Powering On
 
-These instructions assume your robot is in the default configuration and your robot is fully assembled as described in the [Assembly/Disassembly section](assembly.md).
+These instructions assume your robot is in the default configuration and your robot is fully assembled as described in the [Assembly/Disassembly section](setup/assembly.md).
 
 Make sure the Emergency Stop is push in. This will prevent power to the motors.
 
@@ -56,7 +56,7 @@ When you are done charging, place the cap over the charger cable connector and s
 
 ## Accessing the PC
 
-You can run the robot on battery power or plug it into the wall. For different power configurations see [Power Configurations](power.md#power-configurations).
+You can run the robot on battery power or plug it into the wall. For different power configurations see [Power Configurations](hardware/power.md#power-configurations).
 
 Plug in a monitor to your robot via an HDMI cable to the HDMI port (red in image below) on the back of the robot near the emergency stop button.
 
@@ -66,4 +66,4 @@ Plug in a usb keyboard and mouse to your robot from the USB hub (blue in image a
 
 Turn the main breaker on. Then press the PC on the button for one second to turn the PC on.  You should soon see the Qubuntu OS load up and show the Desktop on the monitor. You can set up WiFi and complete any other configurations from here.
 
-With the PC running, you can [test](testing.md) the robot's sensors and actuators.
+With the PC running, you can [test](setup/testing.md) the robot's sensors and actuators.

@@ -14,4 +14,4 @@ We used the following operational safety measures: a torque limit on the drive m
 
 Our primary goals in arm design were to ensure safe and precise yet fluid motion for expressivity, while maintaining affordability. Manipulation (i.e., carrying some payload or applying forces to the environment) was explicitly \textit{not} the goal of our design; thus, we used light-weight limbs and IQ Control's position controlled, direct drive, and brushless servo motors\footnote{http://iq-control.com}. Arms that would be expected to lift, push, or pull would need structural stability that typically leads to heavier and more expensive designs. Furthermore, heavier arms require larger and thus more expensive motors to move. Lower-cost motors or servos could be used at the expense of precision for the case of brushless DC motors \cite{piccoli2016anticogging}.
 
-![Quori's arm](images/quori_arm.jpg)
+![Quori's arm](../images/quori_arm.jpg)

@@ -2,7 +2,7 @@
 
 Quori's torso module not only supports the arms and head, but also has one DoF to lean forward and backward. Here is the torso and waist hardware overview on the left, and the extreme positions the robot achieves on the right:
 
-![Torso](images/quori_torso_waist.png)
+![Torso](../images/quori_torso_waist.png)
 
 The robot can bow forward 30 degrees or lean back 15 degrees.  Mechanical limitations on the positions prevent self-collision.
 
@@ -25,7 +25,7 @@ Alternatively, adding mass to shift the center of mass (CoM) can change this beh
 Affordable actuation of the waist can be achieved with a counterbalance metronome design. This design leverages the mass of the robot's battery to offset the moment of the upper body of the torso, head, sensors, and arms. The moment that needs to be balanced changes, as the balance depends on the position of the arms $\phi_a$ which may be moving.
 This model is used for tuning the CoM of the torso and waist actuator torque is shown below:
 
-![Quori waist transmission](images/quori_waist_transmission.png)
+![Quori waist transmission](../images/quori_waist_transmission.png)
 
 The masses are separated into the upper body mass $m_{UB}$ (head and arm transmission), the arm link mass $m_a$, and the lower body mass $m_{LB}$ (battery and counter masses). Right: Maximum waist holding torque curves used to select a starting counter mass (CM) configuration for the torso. The lines are produced by simulating the arms flexion, $\phi_a$, in order to produce the maximum waist torque, $\Ddot{\theta}_{waist}$, to hold the most difficult position of bowing forward.
 

@@ -2,7 +2,7 @@
 
 Each of the sensors and main components connect via standard connectors and communication interfaces for simplicity, modularity, and potential future reconfiguration.
 
-![Quori's electronics](images/quori_electronics_overview.png)
+![Quori's electronics](../images/quori_electronics_overview.png)
 
 The figure above shows the components and connection types.
 Data are transferred via standard methods of USB 2.0 and 3.0 (blue lines), audio jack (green lines) and HDMI (purple lines).
@@ -18,7 +18,7 @@ A USB and HDMI port are accessible from the back panel of the robot for programm
 
 Quori currently ships with a nuc8i7hvk: Intel© CoreTM i7-8809G Processor with RadeonTM RX Vega M GH graphics (8M Cache, up to 4.20 GHz). It has a 500 GB SSD and 16 GB of RAM
 
-See [System](system.md) for more how to configure the PC.
+See [System](../software/system.md) for more how to configure the PC.
 
 ## Microcontrollers
 

@@ -10,15 +10,15 @@ The arm should be straight out and the abduction axis of the shoulder joint faci
 
 Below, the target calibration position:
 
-![Calibration position](images/quori_arm_alignment.png)
+![Calibration position](../images/quori_arm_alignment.png)
 
 Right arm sensor alignment example:
 
-![Right arm sensor alignment example](images/quori_arm_sensor.png)
+![Right arm sensor alignment example](../images/quori_arm_sensor.png)
 
 Left arm sensor alignment example:
 
-![Left arm sensor alignment example](images/quori_arm_sensor_2.png)
+![Left arm sensor alignment example](../images/quori_arm_sensor_2.png)
 
 Flash the microcontroller for the arm you are calibrating with the code as instructed from [`quori_embedded`](https://github.com/Quori-ROS/quori_embedded); however, you will set the `ARM_ZERO_POSITION` variables in calibration.hpp to zero for the arm you are calibrating.
 
