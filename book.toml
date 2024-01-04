@@ -1,5 +1,12 @@
 [book]
-authors = ["Andrew Specian"]
+authors = [
+  "Maja Mataric",
+  "Ross Mead",
+  "Mark Yim",
+  "Simon Kim",
+  "Andrew Specian",
+  "Braden McDorman",
+]
 language = "en"
 multilingual = false
 src = "src"
