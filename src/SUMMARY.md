@@ -1,6 +1,6 @@
 [Introduction](introduction.md)
 - [Quori](quori.md)
-- [Setup](general_use.md)
+- [Usage](general_use.md)
   - [Transportation](setup/shipment.md)
   - [Assembly](setup/assembly.md)
   - [Disassembly](setup/disassembly.md)

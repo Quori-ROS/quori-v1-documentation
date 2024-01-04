@@ -1,5 +1,16 @@
 # Getting Started
 
+## Running from the Robot
+
+From a Linux PC session with Xorg:
+
+```bash
+ssh -X quori<robot number>@<robot address>
+roscore &!
+```
+
+## Running from a PC
+
 You need a [ROS 1 "noetic" installation](https://wiki.ros.org/noetic/Installation).
 
 > Make sure to source ROS 1 before continuing:
@@ -16,6 +27,11 @@ git submodule init
 catkin_make
 . ./devel/setup.sh
 ```
+
+Then run `roscore` with the appropriate `ROS_IP` and `ROS_MASTER_URI` environment variables
+on both the PC and the robot.
+
+## Starting the Demo configuration
 
 Then you can run the demo launch file:
 

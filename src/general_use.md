@@ -1,4 +1,4 @@
-# General Use
+# Usage
 
 ## Safety
 
@@ -26,6 +26,9 @@ To turn the PC on you will press the PC power button (for one second) on the fro
 
 When you are ready to power the motors on you can twist the Emergency Stop button to release the switch.
 
+> If the robot does NOT make SERIES OF BEEPS when booting up, the motors will not run!
+> If this happens, press the e-stop then twist to release it.
+> Repeat this until you hear the series of beeps.
 
 ## Powering Off
 
