@@ -1,6 +1,6 @@
 # System
 
-Quori currently ships with a nuc8i7hvk: Intel© CoreTM i7-8809G Processor with RadeonTM RX Vega M GH graphics (8M Cache, up to 4.20 GHz). It has a 500 GB SSD and 16 GB of RAM
+Quori v1 ships with a nuc8i7hvk: Intel© CoreTM i7-8809G Processor with RadeonTM RX Vega M GH graphics (8M Cache, up to 4.20 GHz). It has a 500 GB SSD and 16 GB of RAM
 
 ## BIOS
 

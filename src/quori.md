@@ -3,7 +3,7 @@
 *A Modular Robot Platform for Enabling Computing Research in
 Socially Intelligent Human-Robot Interaction.*
 
-![Quori](images/quori.png)
+![Quori v1](images/quori.png)
 
 Quori is a novel, socially interactive robot for facilitating non-contact human-robot interaction (HRI) research, both in the lab and in the wild. Quori aims to provide an affordable, high-quality platform that allows HRI researchers to conduct meaningful user studies by deploying systems in the real world. The Quori platform includes both hardware and software to help facilitate HRI. Quori was designed and produced with support from the National Science
 Foundation Computing Research Infrastructure grant, which included the support for ten Quori platforms to be distributed to researchers in a competitive project proposal process
