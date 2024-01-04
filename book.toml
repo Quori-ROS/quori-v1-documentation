@@ -1,6 +1,6 @@
 [book]
-authors = ["Victor Paléologue", "Chris Birmingham"]
+authors = ["Andrew Specian"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Quori Documentation"
+title = "Quori v1 Documentation"

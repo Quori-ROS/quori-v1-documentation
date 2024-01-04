@@ -1,4 +1,4 @@
-# Quori
+# Quori v1
 
 *A Modular Robot Platform for Enabling Computing Research in
 Socially Intelligent Human-Robot Interaction.*

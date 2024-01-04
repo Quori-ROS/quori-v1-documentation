@@ -1,6 +1,6 @@
 # Introduction
 
-This is the official documentation of the [Quori robot](quori.md).
+This is the official documentation of the [Quori robot v1](quori.md).
 
 Quori owners should refer to the [General Use](general_use.md) section,
 to learn about the robot's maintenance and operation.
