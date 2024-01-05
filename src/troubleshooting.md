@@ -29,15 +29,15 @@
 
         -   ![PC Power Brick](images/pc_power_brick.png)
 
-[]{#anchor-58}Communication/Control General
+## Communication/Control General
 
-## Module will not connect to software control
+### Module will not connect to software control
 
 -   Check the micro usb cable is plugged into the microcontroller.
     If not you might get a joint state failure message. Check at
     the USB A and micro usb ends of the connection
 
-## Joystick Node Control Not working
+### Joystick Node Control Not working
 
 -   The "Mode" button LED should not be on. Press the "Mode" button
     to turn the LED off. If the LED is on the buttons and axis may
