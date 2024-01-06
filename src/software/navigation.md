@@ -1,6 +1,6 @@
 # Navigation
 
-The package [`quori_nav`](https://github.com/Quori-ROS/quori_ros/tree/master/src/quori_nav)
+The package [`quori_nav`](https://github.com/Quori-Robot/quori_ros/tree/master/src/quori_nav)
 contains launch and configuration files for the ROS navigation stack.
 
 ## Launch Files

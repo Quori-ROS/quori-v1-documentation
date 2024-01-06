@@ -18,18 +18,18 @@ The following are links to the software repositories that are already installed 
 
 ### ROS packages for Quori
 
-- [https://github.com/Quori-ROS/quori_ros](https://github.com/Quori-ROS/quori_ros)
+- [https://github.com/Quori-Robot/quori_ros](https://github.com/Quori-Robot/quori_ros)
 
-- [https://github.com/Quori-ROS/quori_ros/tree/master/src/quori_face](https://github.com/Quori-ROS/quori_ros/tree/master/src/quori_face)
+- [https://github.com/Quori-Robot/quori_ros/tree/master/src/quori_face](https://github.com/Quori-Robot/quori_ros/tree/master/src/quori_face)
 
-- [https://github.com/Quori-ROS/quori_ros/tree/master/src/quori_controller](https://github.com/Quori-ROS/quori_ros/tree/master/src/quori_controller)
+- [https://github.com/Quori-Robot/quori_ros/tree/master/src/quori_controller](https://github.com/Quori-Robot/quori_ros/tree/master/src/quori_controller)
 
-- [https://github.com/Quori-ROS/quori_ros/tree/master/src/quori_launch](https://github.com/Quori-ROS/quori_ros/tree/master/src/quori_launch)
+- [https://github.com/Quori-Robot/quori_ros/tree/master/src/quori_launch](https://github.com/Quori-Robot/quori_ros/tree/master/src/quori_launch)
 
 ### Linux OS for Quori
 
-[https://github.com/Quori-ROS/Qubuntu](https://github.com/Quori-ROS/Qubuntu)
+[https://github.com/Quori-Robot/Qubuntu](https://github.com/Quori-Robot/Qubuntu)
 
 ### Embedded Code for Microcontrollers
 
-[https://github.com/Quori-ROS/quori_embedded](https://github.com/Quori-ROS/quori_embedded)
+[https://github.com/Quori-Robot/quori_embedded](https://github.com/Quori-Robot/quori_embedded)

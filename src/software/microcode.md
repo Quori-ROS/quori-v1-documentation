@@ -1,14 +1,14 @@
 # Microcode
 
 - Microcontroller for the arm, and waist modules: [Teensy LC](https://www.pjrc.com/teensy/teensyLC.html)
-- Embedded Code for the arms and waist modules: [https://github.com/Quori-ROS/quori_embedded](https://github.com/Quori-ROS/quori_embedded)
+- Embedded Code for the arms and waist modules: [https://github.com/Quori-Robot/quori_embedded](https://github.com/Quori-Robot/quori_embedded)
 
 - Microcontroller for the base: [NUCLEO-F303K8](https://www.st.com/en/evaluation-tools/nucleo-f303k8.html) (remove and jumpers from the microcontroller before using)
-- Code for the base module: [https://github.com/Quori-ROS/quori_embedded](https://www.st.com/en/evaluation-tools/nucleo-f303k8.html). For the NUCLEO microcontroller you may need to:
+- Code for the base module: [https://github.com/Quori-Robot/quori_embedded](https://www.st.com/en/evaluation-tools/nucleo-f303k8.html). For the NUCLEO microcontroller you may need to:
   - Update your computer to have the latest driver [https://os.mbed.com/platforms/ST-Nucleo-F303K8/](https://os.mbed.com/platforms/ST-Nucleo-F303K8/)
   - Update the mbed to have the latest firmware update [https://os.mbed.com/platforms/ST-Nucleo-F303K8/](https://os.mbed.com/platforms/ST-Nucleo-F303K8/)
 
-Instructions for installing the software to the microcontrollers can be found on at the repository: [https://github.com/Quori-ROS/quori_embedded](https://github.com/Quori-ROS/quori_embedded)
+Instructions for installing the software to the microcontrollers can be found on at the repository: [https://github.com/Quori-Robot/quori_embedded](https://github.com/Quori-Robot/quori_embedded)
 
 To replace a microcontroller you will need to make sure it has the necessary number of header pins solder on the board to plug into its receptacle. Use the broken or old microcontroller as an example.
 

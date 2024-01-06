@@ -20,7 +20,7 @@ Left arm sensor alignment example:
 
 ![Left arm sensor alignment example](../images/quori_arm_sensor_2.png)
 
-Flash the microcontroller for the arm you are calibrating with the code as instructed from [`quori_embedded`](https://github.com/Quori-ROS/quori_embedded); however, you will set the `ARM_ZERO_POSITION` variables in calibration.hpp to zero for the arm you are calibrating.
+Flash the microcontroller for the arm you are calibrating with the code as instructed from [`quori_embedded`](https://github.com/Quori-Robot/quori_embedded); however, you will set the `ARM_ZERO_POSITION` variables in calibration.hpp to zero for the arm you are calibrating.
 
 Next launch the controller file in quori_ros. You should now be able to view the sensor’s value by using rostopic echo to see the joint’s state. Use these value for their corresponding `ARM_ZERO_POSITION` variables. You can now flash the microcontroller with the update calibration. Verify the calibration was successful by reading the joint’s position in the zero configuration. The position should be reported as something close to zero.
 
@@ -29,7 +29,7 @@ Next launch the controller file in quori_ros. You should now be able to view the
 The waist has two sensors to calibrate. The raw value of each sensor is not displayed and so it is a bit more difficult to calibrate this. While there may be an easier option, here is one option for how to recalibrate the waist.
 
 Each sensor for the waist is calibrated with the torso upright in its zero configuration.
-The calibration value for the waist can be found by flashing the waist code from [`quori_embedded`](https://github.com/Quori-ROS/quori_embedded) with the `QUORI_CONFIG_ZERO_POSITION_WAIST` values as `0`.
+The calibration value for the waist can be found by flashing the waist code from [`quori_embedded`](https://github.com/Quori-Robot/quori_embedded) with the `QUORI_CONFIG_ZERO_POSITION_WAIST` values as `0`.
 You can then echo the joint’s state to get the proper calibration value for the waist.
 
 For the QUORI_CONFIG_ZERO_POSITION_MOTOR, you will need to change the line with
@@ -58,7 +58,7 @@ The base calibration does not require the microcontroller to be flashed. The cal
 
 - `roslaunch quori_controller quori_control_holo.launch`
 - `roslaunch quori_teleop quori_teleop.launch`
-- Hold the left bumper LB and use the thumbsticks to rotate the top plate of the base into your desired zero heading. [See teleop repo](https://www.google.com/url?q=https://github.com/Quori-ROS/quori_ros/tree/master/src/quori_teleop&sa=D&source=editors&ust=1703158334603099&usg=AOvVaw0ti8R1g06ZxG_J2iSaMmy2) for more information on how to command the robot
+- Hold the left bumper LB and use the thumbsticks to rotate the top plate of the base into your desired zero heading. [See teleop repo](https://www.google.com/url?q=https://github.com/Quori-Robot/quori_ros/tree/master/src/quori_teleop&sa=D&source=editors&ust=1703158334603099&usg=AOvVaw0ti8R1g06ZxG_J2iSaMmy2) for more information on how to command the robot
 - `rostopic echo /quori/base/pos_status`
 - Use the value reported in the echo above as the new calibration value in the calibration file
 

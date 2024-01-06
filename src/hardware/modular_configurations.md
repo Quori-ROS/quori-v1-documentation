@@ -10,7 +10,7 @@ An optional locking pin feature allows for the torso motion to be locked for shi
 
 You may want to mount your own robot the the base module. The base module has 14 M3 inserts in its mounting plate. See FILE for mounting plate dimensions. To control the base with your own robot you will need to give the base power and ROS to send commands.
 
-For power you will need 12V at atleast 6 Amps to plug into the base’s XT60 cable. For data, you will need to plug the base’s USB cable into a computer running ROS. ROS topics for the base can be found on [the github repository](https://github.com/Quori-ROS/quori_base_embedded).
+For power you will need 12V at atleast 6 Amps to plug into the base’s XT60 cable. For data, you will need to plug the base’s USB cable into a computer running ROS. ROS topics for the base can be found on [the github repository](https://github.com/Quori-Robot/quori_base_embedded).
 
 ## Using the Head Module Independently
 

@@ -21,7 +21,7 @@ You need a [ROS 1 "noetic" installation](https://wiki.ros.org/noetic/Installatio
 The `quori_ros` repository is a ROS 1 workspace, that can be built with `catkin_make`.
 
 ```bash
-git clone https://github.com/Quori-ROS/quori_ros.git
+git clone https://github.com/Quori-Robot/quori_ros.git
 cd quori_ros
 git submodule init
 catkin_make

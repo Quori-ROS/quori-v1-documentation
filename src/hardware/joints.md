@@ -1,6 +1,6 @@
 # Joints
 
-The following section will provide a high level overview of the joints of the robot and its kinematics. More detailed information can be found at the [`quori_description`](https://github.com/Quori-ROS/quori_ros/tree/master/src/quori_description) repository.
+The following section will provide a high level overview of the joints of the robot and its kinematics. More detailed information can be found at the [`quori_description`](https://github.com/Quori-Robot/quori_ros/tree/master/src/quori_description) repository.
 
 ![Quori in Animation Tool](../images/quori_animation.png)
 

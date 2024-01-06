@@ -1,6 +1,6 @@
 # Teleoperation
 
-[`quori_teleop`](https://github.com/Quori-ROS/quori_ros/tree/master/src/quori_teleop)
+[`quori_teleop`](https://github.com/Quori-Robot/quori_ros/tree/master/src/quori_teleop)
 allows teleoperation of Quori using an Xbox or Playstation style controller.
 
 ## Controller Mappings

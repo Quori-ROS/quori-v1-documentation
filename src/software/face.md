@@ -1,6 +1,6 @@
 # Face
 
-The package [`quori_face`](https://github.com/Quori-ROS/quori_ros/tree/master/src/quori_face)
+The package [`quori_face`](https://github.com/Quori-Robot/quori_ros/tree/master/src/quori_face)
 accepts an image and displays it on the Quori face. The image is treated as containing radial pixels along the polar and azimuthal axes of the spherical face.
 
 ## Calibration

@@ -1,6 +1,6 @@
 # Robot Description
 
-The package [`quori_description`](https://github.com/Quori-ROS/quori_ros/tree/master/src/quori_description)
+The package [`quori_description`](https://github.com/Quori-Robot/quori_ros/tree/master/src/quori_description)
 provides URDFs for Quori and the RAMSIS base, as well as a URDF for the combination of the two.
 
 ## Quori Standalone URDF (`urdf/quori_standalone.xacro`)
